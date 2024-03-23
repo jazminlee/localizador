@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasteleria Sunlee</title>
+    <style>
+        body {
+            background: linear-gradient(to bottom, #87CEEB, #ffffff); /* Fondo de cielo */
+            color: #333; /* Color de texto principal */
+            font-family: 'Pacifico', cursive; /* Tipo de fuente */
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            color: #000; /* Color del título principal */
+            text-align: center;
+            font-size: 48px; /* Tamaño del título principal */
+            text-transform: capitalize; /* Convertir texto a oración */
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5); /* Sombra del texto */
+        }
+        h2 {
+            color: #000; /* Color de los títulos secundarios */
+            text-transform: capitalize; /* Convertir texto a oración */
+            font-size: 24px; /* Tamaño del título secundario */
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.5); /* Sombra del texto */
+        }
+    
+    
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .image-wrapper {
+            margin: 10px;
+            text-align: center;
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+            border-radius: 10px; /* Agregar bordes redondeados a las imágenes */
+        }
+        .pastel-text {
+            text-align: center;
+            margin-top: 10px;
+        }
+        .button-wrapper {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .button-wrapper a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #cc6600;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bienvenidos a nuestra pastelería</h1>
+    
+    <h2>Imágenes de nuestros pasteles:</h2>
+    <div class="container">
+        <div class="image-wrapper">
+            <img src="uno.jpeg" alt="Chocolate" width="200" height="200">
+            <p class="pastel-text">Chocolate</p>
+        </div>
+        <div class="image-wrapper">
+            <img src="Pastel2.jpeg" alt="Almendras" width="200" height="200">
+            <p class="pastel-text">Almendras</p>
+        </div>
+        <div class="image-wrapper">
+            <img src="Pastel3.jpg" alt="Fantasía" width="200" height="200">
+            <p class="pastel-text">Fantasía</p>
+        </div>
+    </div>
+    
+    <h2>Video de cómo hacemos nuestros pasteles:</h2>
+    <video width="400" controls>
+        <source src="video.mp4" type="video/mp4">
+        Tu navegador no soporta el elemento de video.
+    </video>
+    
+    <h2>Música mientras espera:</h2>
+    <audio controls>
+        <source src="audio.unknown" type="audio/mpeg">
+        Tu navegador no soporta el elemento de audio.
+    </audio>
+    
+    <h2>¡Ordena ya tu pastel!</h2>
+    <button onclick="alert('Tu pedido ha sido recibido')">Ordenar ahora</button>
+    
+    <div class="button-wrapper">
+        <a href="file:///C:/Users/cindy/Desktop/PAGINA%20WEB/2/Pag2.html" target="_blank">Ver recetas</a>
+    </div>
+</body>
+</html>
+
+
+
+
